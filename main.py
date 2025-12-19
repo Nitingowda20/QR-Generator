@@ -12,7 +12,7 @@ qr = qrcode.make(data)
 filename = f"Qr_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
 
 # Save QR code
-qr.save(filename)
+# qr.save(filename)
 
 # Open the saved image automatically
 img = Image.open(filename)
