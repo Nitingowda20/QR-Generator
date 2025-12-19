@@ -2,7 +2,9 @@ import qrcode
 from datetime import datetime
 from PIL import Image
 
-data = "https://www.youtube.com/shorts/4JQsO91ZY8Q"
+
+# Ask user for input
+data = input("Enter the text or URL for the QR code: ")
 
 qr = qrcode.make(data)
 
